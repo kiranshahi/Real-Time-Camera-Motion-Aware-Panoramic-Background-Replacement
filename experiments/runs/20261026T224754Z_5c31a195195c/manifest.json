@@ -1,0 +1,75 @@
+{
+  "schema_version": "t16.v1",
+  "run_id": "20261026T224754Z_5c31a195195c",
+  "created_at_utc": "2026-10-26T22:47:54.077276+00:00",
+  "configuration": {
+    "panorama": "assets/office_360.jpg",
+    "camera": 0,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "width": 640,
+      "height": 360,
+      "fx": 457.0073621574767,
+      "fy": 457.0073621574767,
+      "cx": 320.0,
+      "cy": 180.0,
+      "distortion": []
+    },
+    "fov": 70,
+    "model": "yolo26n-seg.pt",
+    "device": "cpu",
+    "imgsz": 416,
+    "no_segmentation": false,
+    "video": null,
+    "refine_version": 2,
+    "record_fps": null,
+    "profile_warmup": 10,
+    "acceptance": {
+      "min_inliers": 20,
+      "min_inlier_ratio": 0.6,
+      "max_frame_rotation_deg": 10.0,
+      "rotation_rmse_valid_px": 2.0,
+      "rotation_rmse_invalid_px": 5.0,
+      "min_occupied_cells": 5,
+      "min_coverage_fraction": 0.18,
+      "max_innovation_deg": 5.0,
+      "invalid_after_failures": 3
+    },
+    "temporal_mask": {
+      "max_missing_frames": 2,
+      "fallback_dilation_px": 8,
+      "min_consistent_fraction": 0.55,
+      "fb_tolerance_px": 2.0
+    },
+    "recovery": {
+      "reseed_after": 3,
+      "warmup_frames": 1
+    }
+  },
+  "source": {
+    "kind": "webcam",
+    "path": null,
+    "device_index": 0,
+    "fps": 30.0,
+    "width": 640,
+    "height": 360
+  },
+  "artifacts": {
+    "frames_csv": "frames.csv",
+    "profile_frames_csv": "experiments\\profile_frames_20261026_224754_077749.csv",
+    "profile_summary_csv": "experiments\\profile_summary_20261026_224754_077749.csv",
+    "legacy_motion_csv": "experiments\\motion_20261026_224754_076439.csv"
+  },
+  "recordings": [],
+  "summary": {
+    "frames_logged": 180,
+    "recording": {
+      "sessions": 0,
+      "input_frames": 0,
+      "written_frames": 0,
+      "repeated_frames": 0,
+      "skipped_frames": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+frame,timestamp,matches,inliers,inlier_ratio,rotation_accepted,yaw,pitch,roll,tracking_state,tracking_reason,rotation_rmse_px,occupied_cells,coverage_fraction,innovation_deg,foreground_mask_status,excluded_pixels,tracking_confidence_score,mask_reliability,recovery_state,recovery_failures

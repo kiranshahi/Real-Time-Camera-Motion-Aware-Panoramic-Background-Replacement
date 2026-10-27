@@ -1,0 +1,10 @@
+case,matches,inliers,inlier_ratio,error_deg,estimated_motion_deg,rotation_accepted,false_positive_rotation
+identity,192,192,1.0,0.0,0.0,True,
+yaw_positive,192,192,1.0,0.0,4.999999,True,
+yaw_negative,192,192,1.0,0.0,5.0,True,
+pitch,192,192,1.0,0.0,4.000001,True,
+roll,192,192,1.0,0.0,5.0,True,
+combined,192,192,1.0,0.0,5.423346,True,
+translation_horizontal_10px,192,192,1.0,0.626833,0.626833,True,True
+translation_vertical_10px,192,192,1.0,0.626834,0.626834,True,True
+translation_diagonal_20_15px,192,192,1.0,1.566756,1.566756,True,True

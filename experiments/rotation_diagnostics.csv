@@ -1,0 +1,14 @@
+case,matches,inliers,inlier_ratio,rotation_error_deg,homography_rmse_px,rotation_rmse_px,rmse_gap_px,homography_p95_px,rotation_p95_px,rotation_accepted,false_positive_rotation
+identity,192,192,1.0,0.0,0.0,0.0,0.0,0.0,0.0,True,False
+yaw_5,192,192,1.0,0.0,1e-05,1.3e-05,2e-06,2.5e-05,3e-05,True,False
+pitch_4,192,192,1.0,0.0,1.3e-05,1.5e-05,2e-06,2.3e-05,2.6e-05,True,False
+roll_5,192,192,1.0,0.0,1.3e-05,1.5e-05,2e-06,2.5e-05,2.8e-05,True,False
+combined,192,192,1.0,0.0,1.2e-05,1.8e-05,7e-06,2.2e-05,2.7e-05,True,False
+yaw_noisy_0_5px,192,192,1.0,0.010139,0.731418,0.74539,0.013972,1.290644,1.271306,True,False
+combined_noisy_1px,192,185,0.96354,0.149869,1.364505,1.387306,0.022801,2.194314,2.260424,True,False
+yaw_25pct_outliers,192,144,0.75,0.061189,0.680426,0.861209,0.180783,1.243672,1.461023,True,False
+combined_35pct_outliers,192,124,0.64583,0.119811,1.071869,1.271808,0.199939,1.80322,2.139836,True,False
+translation_x_10px,192,192,1.0,0.626834,2e-06,4.54809,4.548088,6e-06,4.996211,True,True
+translation_y_10px,192,192,1.0,0.626833,2e-06,4.882646,4.882644,7e-06,4.998669,True,True
+translation_xy_20_15px,192,192,1.0,1.566755,4e-06,11.678127,11.678122,1.3e-05,12.494208,True,True
+translation_x_10px_noisy,192,192,1.0,0.617211,0.730926,4.695943,3.965016,1.291161,5.645686,True,True
